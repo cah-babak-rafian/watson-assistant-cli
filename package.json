@@ -1,0 +1,15 @@
+{
+    "name": "watson-assistant-cli",
+    "version": "1.0.0",
+    "license": "MIT",
+    "bin": {
+        "wa": "bin/watson-assistant"
+    },
+    "scripts": {},
+    "devDependencies": {},
+    "dependencies": {
+        "ibm-watson": "^4.2.1",
+        "minimist": "^1.2.0",
+        "ora": "^3.4.0"
+    }
+}
