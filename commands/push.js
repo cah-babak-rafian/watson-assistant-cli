@@ -37,8 +37,4 @@ module.exports = (args, service) => {
             spinner.stop();
         });
     })
-
-
-
-
 }

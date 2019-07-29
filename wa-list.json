@@ -1,0 +1,67 @@
+{
+  "workspaces": [
+    {
+      "name": "CHIA_VOICE_ASSISTANT",
+      "language": "en",
+      "metadata": {
+        "api_version": {
+          "major_version": "v1",
+          "minor_version": "2018-02-16"
+        }
+      },
+      "webhooks": [
+        {
+          "url": "https://chiabot-sn-dev.apps.cf.np.gc.cahcloud.com/api/message",
+          "name": "main_webhook",
+          "headers": []
+        }
+      ],
+      "description": "",
+      "workspace_id": "3493f66e-ca3a-4661-b96f-7dad29a1cedf",
+      "system_settings": {
+        "tooling": {
+          "store_generic_responses": true
+        },
+        "disambiguation": {
+          "enabled": false,
+          "sensitivity": "auto"
+        },
+        "system_entities": {
+          "enabled": true
+        },
+        "human_agent_assist": {},
+        "spelling_auto_correct": true
+      },
+      "learning_opt_out": false
+    },
+    {
+      "name": "my_new_workspace",
+      "language": "en",
+      "metadata": {
+        "api_version": {
+          "major_version": "v1",
+          "minor_version": "2018-02-16"
+        }
+      },
+      "description": "I am creating this new workspace for testing purpose",
+      "workspace_id": "a2878e21-2bb2-4049-a688-89e9960d2d7a",
+      "learning_opt_out": false
+    },
+    {
+      "name": "very_new_test",
+      "language": "en",
+      "metadata": {
+        "api_version": {
+          "major_version": "v1",
+          "minor_version": "2018-02-16"
+        }
+      },
+      "description": "No description provided",
+      "workspace_id": "912fc53e-6103-43ad-ac47-b85955264797",
+      "learning_opt_out": false
+    }
+  ],
+  "pagination": {
+    "refresh_url": "/v1/workspaces?version=2018-02-16"
+  }
+}

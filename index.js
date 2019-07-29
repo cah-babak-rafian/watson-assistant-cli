@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const minimist = require('minimist');
 const AssistantV1 = require('ibm-watson/assistant/v1');
 
@@ -6,7 +7,7 @@ module.exports = () => {
 
     const service = new AssistantV1({
         version: '2018-02-16',
-        iam_apikey: `` /** IBM API KEY */,
+        iam_apikey: `ceaZ4zCp8jpmEQ4OQUo_Ryec7oWAaItbBVHKKJ1ZESY1` /** IBM API KEY */,
         url: 'https://gateway.watsonplatform.net/assistant/api'
     });
 
