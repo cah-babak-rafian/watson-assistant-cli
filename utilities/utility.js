@@ -12,7 +12,7 @@ exports.getWorkspaceID = function(name, service){
             if(id){
                 resolve(id);
             }else{
-                reject(new Error(`\n    No workspace found with the name of ${name}\n`));
+                reject(new Error(`\n    Error! No workspace found with the name of ${name}\n`));
             }
         }).catch( err => 
             console.log(err)
