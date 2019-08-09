@@ -8,7 +8,7 @@ module.exports = (args, service) => {
     spinner.prefixText = 'pulling your work space information';
 
     const name = args._[1];
-    const ws_id = utility.getWorkspaceID(name, service); //args.id || args.wsid;
+    const ws_id = utility.getWorkspaceID(name, service); 
     const full = args.full || args.f;
     const saveReq = args.save || args.s;
     const print = args.print || args.p;
@@ -17,7 +17,7 @@ module.exports = (args, service) => {
     ws_id.then(id => {
 
         const params = {
-            workspace_id: id, //'66e51b25-a8db-4552-af6e-79e199e41037'
+            workspace_id: id, 
             _export: full
         };
 

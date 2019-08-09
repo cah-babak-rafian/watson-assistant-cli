@@ -12,18 +12,16 @@ const menus = {
       `,
 
   pull: `
-    wa pull <options>
+    wa pull <workspace name> <options>
   
-      --id, --wsid ..... the workspace id to use
       -save, -s ........ flag to save the pulled object in a file
       -full, -f ........ flag to pull the full object 
-      --name, --n ...... name of the file to store the WA object (default is watson-assistant.json)
+      -print, -p ....... flag to print the detail of the workspace
       `,
 
   push: `
-    wa push <options>
+    wa push <workspace name> <options>
     
-      --id, --wsid ..... the workspace id to use
       --name, --n ...... name of the json file to be pushed
       `,
 
